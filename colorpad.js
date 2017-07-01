@@ -22,7 +22,6 @@ $(document).ready(function(){
 	$("#newGrid").on("click", function(){
 		$(".gridContainer").children().remove();
 		for(var i = 0; i < $grid.value; i++){
-			$('<div class="this">' + '</div>').appendTo(".gridContainer");
 			for(var j = 0; j < $grid.value; j++){
 				$('<div class="this">' + '</div>').appendTo(".gridContainer");
 			}
