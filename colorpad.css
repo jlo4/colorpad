@@ -4,13 +4,14 @@ body {
 
 h1 {
 	color: black;
+	margin-top: 10%;
 }
 
 .gridContainer {
 	background: white;
 	height: 100%;
 	width: 100%;
-	margin: 20px 0 0 250px;
+	margin: 5% 30%;
 }
 
 .this {
@@ -25,8 +26,4 @@ h1 {
 input {
 	margin: 10px auto;
 	display: block;
-}
-
-.text-center {
-	margin-top: 50px;
 }

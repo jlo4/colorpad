@@ -11,10 +11,33 @@
 	<link rel="stylesheet" href="colorpad.css">
 </head>
 <body>
+	<div id="nav" class="navbar navbar-default navbar-fixed-top">
+		<nav>
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">J L</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li><a href="https://github.com/jlo4" target="_blank">My Github<span class="sr-only">(current)</span></a></li>
+			</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+		</nav>
+	</div>
 	<div class="container fluid">
 	<h1 class="text-center">Color Pad</h1>
 		<div class="setup text-center">
-		<input class="setup" type="number" id="grid" min="16" max="30">
+		<input class="setup" type="number" id="grid" min="16" max="30" value=16>
 		<button id="newGrid" class="btn btn-lg">Create Grid!</button>
 		</div>
 		<div class="gridContainer">
